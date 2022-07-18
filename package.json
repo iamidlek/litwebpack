@@ -1,0 +1,33 @@
+{
+  "name": "lit-element-webpack-ts-sample",
+  "version": "0.1.1",
+  "description": "A lit-element typescript boilerplate, packed with webpack",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "npm run build && node serve.js",
+    "dev": "webpack-dev-server",
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cytoscape": "^3.19.5",
+    "@types/cytoscape-dagre": "^2.3.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "ts-loader": "^9.3.1",
+    "tslib": "^1.11.1",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.8.3",
+    "typescript-lit-html-plugin": "^0.9.0",
+    "typescript-tslint-plugin": "^0.5.5",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "cytoscape": "^3.22.0",
+    "cytoscape-dagre": "^2.4.0",
+    "lit-element": "^2.2.1"
+  }
+}
